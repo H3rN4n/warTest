@@ -1,3 +1,5 @@
+///////////////// FACTORY PATTERN /////////////////
+
 /////////////////CONSTANTS/////////////////
 
 const initialUnitForce = {
@@ -131,9 +133,9 @@ const Chinese = createArmy("Chinese", 2, 25, 2)
 const Englishmen = createArmy("Englishmen", 10, 10, 10)
 const Byzantines = createArmy("Byzantines", 2, 25, 2)
 
-//console.log(Chinese)
-//console.log(Englishmen)
-//console.log(Byzantines)
+console.log(Chinese)
+console.log(Englishmen)
+console.log(Byzantines)
 
 /////////////////END INSTANCES/////////////////
 
