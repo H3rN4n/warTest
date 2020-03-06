@@ -33,14 +33,22 @@ describe("Army", () => {
     expect(filterUnitsByType(army.units, "knights").length).toEqual(2);
   });
 
-  // demonstrates use of spies to intercept and test method calls
-  // it("tells the current song if the user has made it a favorite", () => {
-  //   spyOn(song, 'persistFavoriteStatus');
+});
 
-  //   player.play(song);
-  //   player.makeFavorite();
+describe("Unit", () => {
+  let unit;
 
-  //   expect(song.persistFavoriteStatus).toHaveBeenCalledWith(true);
-  // });
+  beforeEach(() => {
+    unit = new Unit("pikemans");
+  });
+
+  it("should be pikemans", () => {
+    expect(unit.type).toEqual("pikemans");
+  });
+
+  it("should be encrease power on train", () => {
+    unit.upgrade("train")
+    expect(unit.force).toEqual(initialUnitForce[unit.type] + trainValues[unit.type].forceToAdd);
+  });
 
 });
