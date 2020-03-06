@@ -199,20 +199,20 @@ const battle = (army1, army2) => {
 
 /////////////////INSTANCES/////////////////
 
-const Chinese = new Army("Chinese", 2, 25, 2);
-const Englishmen = new Army("Englishmen", 10, 10, 10);
-const Byzantines = new Army("Byzantines", 2, 25, 2);
+// const Chinese = new Army("Chinese", 2, 25, 2);
+// const Englishmen = new Army("Englishmen", 10, 10, 10);
+// const Byzantines = new Army("Byzantines", 2, 25, 2);
 
-console.log(Chinese);
-console.log(Englishmen);
-console.log(Byzantines);
+// console.log(Chinese);
+// console.log(Englishmen);
+// console.log(Byzantines);
 
-console.log(battle(Chinese, Englishmen));
-console.log(battle(Chinese, Byzantines));
-console.log(battle(Byzantines, Englishmen));
+// console.log(battle(Chinese, Englishmen));
+// console.log(battle(Chinese, Byzantines));
+// console.log(battle(Byzantines, Englishmen));
 
-console.log(Chinese.upgradeUnit(1).then(r => console.log(r)));
-console.log(Chinese.trainUnit(1).then(r => console.log(r)));
-console.log(Chinese.units[1].force)
+// console.log(Chinese.upgradeUnit(1).then(r => console.log(r)));
+// console.log(Chinese.trainUnit(1).then(r => console.log(r)));
+// console.log(Chinese.units[1].force)
 
 /////////////////END INSTANCES/////////////////
