@@ -1,6 +1,6 @@
 # WarTest
 
-This is a kind battle game script which allow to create armies to fight each others.
+This is a kind battle game script which allows to create armies to fight each other.
 
 To run it you need to:
   - Run npm install -g http-server
